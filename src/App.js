@@ -5,6 +5,7 @@ import FormPage from './page/FormPage';
 import { Route, Routes } from 'react-router-dom';
 import Page2 from './page/Page2';
 import Security from './page/Security';
+import EmploymentDetails from './page/Employment';
 
 
 function App() {
@@ -184,6 +185,7 @@ function App() {
         <Route path='/' element={<FormPage />} />
         <Route path='/page2' element={<Page2 />} />
         <Route path='/security' element={<Security />} />
+        <Route path='/employment' element={<EmploymentDetails />} />
       </Routes>
     </>
   );
